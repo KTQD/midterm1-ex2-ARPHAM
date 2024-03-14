@@ -9,7 +9,6 @@ public class Main {
         }
     }
     public static Map<String, Integer> countWords(String input) {
-        // khởi tạo wordMap
         Map<String, Integer> wordMap = new TreeMap<String, Integer>();
         if (input == null) {
             return wordMap;
